@@ -70,7 +70,7 @@
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Lime;
             this.btnLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnLogin.Location = new System.Drawing.Point(273, 154);
+            this.btnLogin.Location = new System.Drawing.Point(120, 142);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(143, 43);
@@ -102,7 +102,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "LoginScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LoginScreen";
+            this.Text = "0";
             this.Load += new System.EventHandler(this.LoginScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numDelay)).EndInit();
             this.ResumeLayout(false);
